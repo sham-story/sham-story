@@ -1,0 +1,213 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(75, 75, 75);
+}
+.logo .pic{
+    width: 5%;
+    border-radius: 100%;
+    margin: 10px 0 10px 0;
+    /* margin-right: 3%;  */
+    border: solid 2px rgb(222, 188, 74);
+    margin-left: auto;
+}
+.logo h1{
+    font-size: 50px;
+    margin: auto 20px auto auto;
+    color: rgb(222, 188, 74);
+}
+
+.logo .contact{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0 auto 0;
+}
+
+.logo .contact .loc{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+
+.logo .contact .loc .locc{
+    width: 4%;
+    border-radius: 20px;
+}
+
+.logo .contact .loc p{
+    margin: auto 10px auto 0;
+    font-size: 15px;
+    color: white;
+}
+
+.logo .contact .call{
+    display: flex;
+    justify-content: center;
+}
+
+.logo .contact .call p{
+    margin: auto 10px auto 0;
+    font-size: 15px;
+    color: white;
+}
+
+.logo .contact .call .phone{
+    width: 4%;
+    border-radius: 20px;
+}
+
+
+
+main{
+    background-color: rgb(181, 43, 43);
+}
+
+footer{
+    padding: 30px 0 22px 0;
+    width: 100%;
+    background-color: rgb(75, 75, 75);
+}
+
+.footerflex{
+    display: flex;
+    width: 100%;
+}
+
+.footerflex .subflex1{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 250px;
+
+}
+
+.footerflex .subflex1 p{
+    color: white;
+    margin-bottom: 15px;
+    margin-left: auto;
+}
+
+.footerflex .subflex2{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 250px;
+}
+
+.footerflex .subflex2 .subsubflex{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.footerflex .subflex2 .subsubflex .social{
+    width: 10%;
+    border-radius: 10px;
+}
+
+.footerflex .subflex2 .subsubflex p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+footer .footerlogo{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer .pic{
+    width: 5%;
+    border-radius: 100%;
+    border: solid 2px rgb(222, 188, 74);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+@media screen and (max-width: 639px) {
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo .pic{
+        width: 15%;
+        border-radius: 100%;
+        margin: 10px 0 10px 0;
+        border: solid 2px rgb(222, 188, 74);
+    }
+
+    .logo h1{
+        font-size: 50px;
+        margin: auto auto 4% auto;
+        color: rgb(222, 188, 74);
+    }
+
+    .logo .contact{
+        display: flex;
+        flex-direction: colurmn;
+        margin: 4% 0 auto 0;
+    }
+
+    .footerflex{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footerflex .subflex1{
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+    }
+
+    .footerflex .subflex1 p{
+        color: white;
+        margin-bottom: 15px;
+        margin-left: auto;
+    }
+    
+    .footerflex .subflex2{
+        margin-left: auto;
+        width: 40%;
+    }
+    
+    .footerflex .subflex2 .subsubflex{
+        padding-bottom: 1px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    footer .pic{
+        width: 15%;
+    }
+
+
+}
+
+
+
+
+
+
+
+/**
+* For medium screens ( 640px -> 767px )
+**/
+@media screen and (min-width: 640px) and (max-width: 767px) {
+
+}
+
+
